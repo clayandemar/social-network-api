@@ -68,4 +68,10 @@ const reactionData = [
   'Lame',
   'Sweet',
   'Stinky',
-]
+];
+
+const getDataItem = (arr) => {
+  
+}
+
+module.exports = {}
