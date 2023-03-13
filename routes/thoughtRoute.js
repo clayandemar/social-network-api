@@ -16,7 +16,7 @@ router.route('/').get(getThoughts);
 router.route('/:thoughtId').get(getSingleThought);
 
 // Create thought
-router.route('/:thougthId').post(createThought);
+router.route('/').post(createThought);
 
 // Update thought
 router.route('/:thoughtId').put(updateThought);
