@@ -9,7 +9,7 @@ const {
 } = require('../controllers/userController');
 
 // Get all users
-router.route('./').get(getUsers);
+router.route('/').get(getUsers);
 
 //Get single user
 router.route('/:userId').get(getSingleUser);
