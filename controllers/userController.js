@@ -69,7 +69,7 @@ module.exports = {
     },
 
     //add a friend to your friend list
-    async addFriendToFriendList(req, res) {
+    async addFriend(req, res) {
         try {
             const userId = req.params.userId;
             const friendIdToPush = req.params.friendId;
